@@ -1,5 +1,4 @@
-~
-# GIT on Ubuntu Cheatsheet
+# GIT on Linux Cheatsheet
 
 This cheatsheet provides a collection of commonly used GIT commands on an Ubuntu based system.
 
@@ -170,7 +169,7 @@ git config merge.tool | Get merge tool config setting
 Command | Description
 --- | ---
 git config user.name "bob" | Set username config setting
-git config user.email "bob@bob.com" | Set email config setting
+git config user.email "jhonwick@mail.com" | Set email config setting
 git config core.autocrlf input | Set autocrlf (see note below) config setting
 git config core.editor vim | Set editor config setting
 git config merge.tool meld | Set merge tool config setting
@@ -203,7 +202,7 @@ git config --global merge.tool | Get merge tool config setting
 Command | Description
 --- | ---
 git config --global user.name "bob" | Set username config setting
-git config --global user.email "bob@bob.com" | Set email config setting
+git config --global user.email "jhonwick@mail.com" | Set email config setting
 git config --global core.autocrlf input | Set autocrlf (see note below) config setting
 git config --global core.editor vim | Set editor config setting
 git config --global merge.tool meld | Set merge tool config setting
@@ -242,7 +241,7 @@ git config --system merge.tool | Get merge tool config setting
 Command | Description
 --- | ---
 git config --system user.name "bob" | Set username config setting
-git config --system user.email "bob@bob.com" | Set email config setting
+git config --system user.email "jhonwick@mail.com" | Set email config setting
 git config --system core.autocrlf input | Set autocrlf (see note below) config settinsystem
 git config --system core.editor vim | Set editor config setting
 git config --system merge.tool meld | Set merge tool config setting
@@ -264,6 +263,7 @@ git config --system core.autocrlf input | system
   ```bash
   git config --global alias.log-summary "log --all --pretty=format:'%h %ad - %s%d [%an]' --graph --date=short"
   ```
+
 * Create alias to display commit history as a graph
 
   ```bash
@@ -275,7 +275,6 @@ git config --system core.autocrlf input | system
   ```bash
   git config --global alias.unstage "reset HEAD --"
   ```
----
 
 ## Commands
 
