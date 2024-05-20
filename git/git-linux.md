@@ -1,4 +1,4 @@
-
+~
 # GIT on Ubuntu Cheatsheet
 
 This cheatsheet provides a collection of commonly used GIT commands on an Ubuntu based system.
